@@ -15,7 +15,7 @@ public class Main {
 
         List<Character> chars = new ArrayList<>();
 
-        CharacterCount characterCount = new CharacterCount(new ArrayList<>(List.of('q','q','r','s','x','x')));
+        CharacterCount characterCount = new CharacterCount(new ArrayList<>(List.of('q','q','r','s','x','x','r','r','r','r')));
         System.out.println(characterCount.countEachCharacter());
 
         Singleton singleton = Singleton.getInstance();
